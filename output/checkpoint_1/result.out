@@ -1,0 +1,36 @@
+
+Creating dataframe:
+
+No. of partitions :  4
+input_file :  /home/akash/analytics/big_data//input/aadhaar_data.csv
++-----------------+---+----------+--------------+--------+------+-------------+-------+--------------------+--------------+--------+-------------+--------------+
+|aadhaar_generated|age|      date|      district|email_id|gender|mobile_number|pincode|      private_agency|     registrar|rejected|        state|  sub_district|
++-----------------+---+----------+--------------+--------+------+-------------+-------+--------------------+--------------+--------+-------------+--------------+
+|                1| 49|2015-04-20|   South Delhi|       1|     F|            0| 110025|A-Onerealtors Pvt...|Allahabad Bank|       0|        Delhi|Defence Colony|
+|                1| 65|2015-04-20|   South Delhi|       0|     F|            0| 110025|A-Onerealtors Pvt...|Allahabad Bank|       0|        Delhi|Defence Colony|
+|                1| 42|2015-04-20|   South Delhi|       1|     M|            0| 110025|A-Onerealtors Pvt...|Allahabad Bank|       0|        Delhi|Defence Colony|
+|                1| 61|2015-04-20|   South Delhi|       1|     M|            0| 110025|A-Onerealtors Pvt...|Allahabad Bank|       0|        Delhi|Defence Colony|
+|                1| 45|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224122|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 55|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224122|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 60|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224122|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 65|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224122|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 14|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224151|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 47|2015-04-20|Ambedkar Nagar|       1|     M|            0| 224151|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 14|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 20|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 28|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 38|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 50|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 54|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 72|2015-04-20|Ambedkar Nagar|       0|     F|            0| 224152|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1|  6|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                2|  7|2015-04-20|Ambedkar Nagar|       2|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                2|  8|2015-04-20|Ambedkar Nagar|       2|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                3|  9|2015-04-20|Ambedkar Nagar|       3|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 10|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                2| 12|2015-04-20|Ambedkar Nagar|       2|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                3| 13|2015-04-20|Ambedkar Nagar|       3|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
+|                1| 14|2015-04-20|Ambedkar Nagar|       1|     F|            0| 224155|A-Onerealtors Pvt...|Allahabad Bank|       0|Uttar Pradesh|      Akbarpur|
++-----------------+---+----------+--------------+--------+------+-------------+-------+--------------------+--------------+--------+-------------+--------------+
+only showing top 25 rows
+

@@ -1,0 +1,42 @@
+\Start:
+
+No. of partitions :  4
+input_file :  /home/akash/analytics/aadhar_card//input/aadhaar_data.csv
+
+
+
+13 - top 3 states with most number of Aadhar cards : 
+
+
+[Row(state=u'Maharashtra', aadhaar_generated=951201), Row(state=u'Uttar Pradesh', aadhaar_generated=385463), Row(state=u'Andhra Pradesh', aadhaar_generated=270055)]
+
+
+
+14 - top 3 private agencies with most number of Aadhar cards : 
+
+
+[Row(private_agency=u'Wipro Ltd', aadhaar_generated=745751), Row(private_agency=u'Vakrangee Softwares Limited', aadhaar_generated=225273), Row(private_agency=u'Swathy Smartcards Hi-Tech Pvt', aadhaar_generated=211790)]
+
+
+
+15 - number of residents provided email and mobile number : 
+
+
++--------+-------------+
+|email_id|mobile_number|
++--------+-------------+
+| 1424434|        56504|
++--------+-------------+
+
+
+
+
+16 - top 3 districts where enrolment numbers are maximum : 
+
+
+Traceback (most recent call last):
+  File "/home/akash/analytics/big_data/checkpoints/checkpoint_3/checkpoint_3.py", line 112, in <module>
+    main(sys.argv[1:])
+  File "/home/akash/analytics/big_data/checkpoints/checkpoint_3/checkpoint_3.py", line 94, in main
+    .withColumnRenamed('(aadhaar_generated + rejected)','enrolments').groupBy('enrolments').orderBy('enrolments', ascending=False)
+AttributeError: 'GroupedData' object has no attribute 'orderBy'

@@ -1,0 +1,76 @@
+
+Creating dataframe:
+
+No. of partitions :  4
+input_file :  /home/akash/analytics/big_data//input/aadhaar_data.csv
+
+
+The top 3 states where the percentage of Aadhaar cards being generated for males is the highest : 
++-----------------+
+|state            |
++-----------------+
+|Manipur          |
+|Arunachal Pradesh|
+|Nagaland         |
++-----------------+
+
+
+
+
+
+
+The top 3 districts where the percentage of Aadhaar cards being rejected for females is the highest
++------------+
+|district    |
++------------+
+|Kurung Kumey|
+|Kohima      |
+|Mokokchung  |
++------------+
+
+
+
+
+
+
+The top 3 states where the percentage of Aadhaar cards being generated for females is the highest.
++---------------------------+
+|state                      |
++---------------------------+
+|Andaman and Nicobar Islands|
+|Chhattisgarh               |
+|Goa                        |
++---------------------------+
+
+
+
+
+
+
+The top 3 districts where the percentage of Aadhaar cards being rejected for males is the highest
++------------+
+|district    |
++------------+
+|Kurung Kumey|
+|Kohima      |
+|Mokokchung  |
++------------+
+
+
+
+
++---------+------------------+
+|age_group|percentage_summary|
++---------+------------------+
+|     0_19| 89.07471852078267|
+|    19_38| 91.42692903373971|
+|    38_57| 91.65506406055961|
+|    57_76| 91.26276848593697|
+|    76_95| 92.47000292654376|
+|   95_114| 88.68613138686132|
+|  114_133| 71.05263157894737|
+|  133_152| 71.42857142857143|
+|  152_171|             100.0|
+|  171_190|             100.0|
++---------+------------------+
+
