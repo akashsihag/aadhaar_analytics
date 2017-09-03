@@ -1,7 +1,5 @@
-###############################################################################
 Hi! This is readme file to setup and run spark jobs.
 
-###############################################################################
 Export environent variable :
 export BIG_DATA=/home/${user.home}/aaadhaar_analytics/
 
@@ -39,6 +37,6 @@ Format : pyspark src_code_file.py <partition> <input-file>
 5.) Checkpoint 5:
 	pyspark ${BIG_DATA}/checkpoints/checkpoint_5/checkpoint_5.py 4 ${BIG_DATA}/input/aadhaar_data.csv > ${BIG_DATA}/output/checkpoint_5/result.out
 
-###############################################################################
+
 Output : ${BIG_DATA}/output/
 ###############################################################################
